@@ -41,10 +41,7 @@ module.exports.connect = () => {
             reject(" Mongo Database disconnected");
         });
 
-        let models = Glob.sync("app/models/*.js");
-        models.forEach(function (model) {
-            require("../" + model);
-        });
+        let models = require("./note.js");
     });
 };
 
