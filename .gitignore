@@ -1,0 +1,9 @@
+node_modules/
+config.json
+test.js
+package-lock.json
+.eslintrc.json
+.idea
+dev.json
+*.lock
+build

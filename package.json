@@ -1,0 +1,35 @@
+{
+  "name": "page-api",
+  "version": "1.0.0",
+  "description": "Facebook Management Suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 100000 --recursive",
+    "prestart": "npm install",
+    "dev": "NODE_ENV=dev nodemon index.js",
+    "start:dev": "NODE_ENV=dev node index.js",
+    "start:prod": "NODE_ENV=production node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.124.0",
+    "body-parser": "^1.17.2",
+    "config": "^1.29.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "encodeurl": "^1.0.1",
+    "express": "^4.15.4",
+    "express-validator": "^4.3.0",
+    "glob": "^7.1.2",
+    "jsonwebtoken": "^7.4.2",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.10.8",
+    "querystring": "^0.2.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.2",
+    "socket.io": "^2.0.4",
+    "socket.io-redis": "^5.2.0"
+  }
+}
